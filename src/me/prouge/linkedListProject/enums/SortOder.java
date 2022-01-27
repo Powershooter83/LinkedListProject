@@ -1,4 +1,4 @@
-package me.prouge.linkedListProject;
+package me.prouge.linkedListProject.enums;
 
 public enum SortOder {
     ASCENDING,

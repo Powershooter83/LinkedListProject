@@ -1,4 +1,8 @@
-package me.prouge.linkedListProject;
+package me.prouge.linkedListProject.modals;
+
+import me.prouge.linkedListProject.enums.SortOder;
+import me.prouge.linkedListProject.interfaces.INumberMemory;
+import me.prouge.linkedListProject.modals.Element;
 
 public class NumberMemory<T extends Number> implements INumberMemory<T> {
 

@@ -1,4 +1,6 @@
-package me.prouge.linkedListProject;
+package me.prouge.linkedListProject.interfaces;
+
+import me.prouge.linkedListProject.enums.SortOder;
 
 public interface INumberMemory<T extends Number>  {
 

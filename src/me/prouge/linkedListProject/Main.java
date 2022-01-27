@@ -1,16 +1,17 @@
 package me.prouge.linkedListProject;
 
+import me.prouge.linkedListProject.enums.SortOder;
+import me.prouge.linkedListProject.modals.NumberMemory;
+
 public class Main {
 
     public static void main(String[] args){
 
-        NumberMemory<Byte> numberMemory = new NumberMemory<>();
-        numberMemory.add((byte) 2);
-        numberMemory.add((byte) 3);
-        numberMemory.add((byte) 33);
-        numberMemory.add((byte) 12);
-
-        numberMemory.get(SortOder.DESCENDING);
+        NumberMemory<Long> numberMemory = new NumberMemory<>();
+        numberMemory.add(20000000000L);
+        numberMemory.add(2000000000L);
+        numberMemory.add(300000000000L);
+        numberMemory.get(SortOder.ASCENDING);
     }
 
 }
